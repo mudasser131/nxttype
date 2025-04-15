@@ -9,7 +9,7 @@ interface Props {
 
 const TodoItem: React.FC<Props> = ({ todo, toggleComplete, deleteTodo }) => {
   return (
-    <div className="flex justify-between items-center bg-gray-100 p-4 rounded-lg shadow">
+    <div className="flex justify-between items-center bg-gray-110 p-4 rounded-lg shadow">
       {/* Click on text to toggle completion */}
       <span
         className={`cursor-pointer ${todo.completed ? "line-through text-gray-500" : ""}`}
